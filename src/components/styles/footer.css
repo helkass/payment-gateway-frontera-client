@@ -1,0 +1,7 @@
+footer {
+   background-color: var(--color-secondary);
+   min-height: 30px;
+   font-size: 14px;
+   display: flex;
+   align-items: center;
+}

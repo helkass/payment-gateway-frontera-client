@@ -1,0 +1,18 @@
+.docs__content-container {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   width: 100%;
+}
+.docs__content-title {
+   text-decoration: underline;
+   text-transform: capitalize;
+   margin: 5px 0;
+}
+
+.docs__content-subtitle {
+   line-height: 1.2rem;
+   text-align: left;
+   color: rgba(0, 0, 0, 0.7);
+   font-size: 0.9rem;
+}

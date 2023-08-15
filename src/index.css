@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap");
+
+:root {
+   --color-primary: rgb(120, 193, 243);
+   --color-secondary: rgb(155, 232, 216);
+   --color-third: rgb(226, 246, 202);
+   --color-fourth: rgb(248, 253, 207);
+}
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   box-sizing: border-box;
+   font-size: 18px;
+   font-family: "Open Sans", sans-serif;
+   scroll-behavior: smooth;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+   position: relative;
+   cursor: pointer;
+   z-index: 2;
+}
+
+li {
+   list-style: none;
+}
+
+button,
+input {
+   background: inherit;
+   outline: none;
+   border-radius: 5px;
+   border: none;
+}
+
+button,
+input:focus {
+   border: none;
+   outline: none;
+}
+
+section {
+   overflow: hidden;
+}
+
+.container {
+   max-width: 1200px;
+   padding: 0 10px;
+   width: 100%;
+   margin: 0 auto;
+}
+
+.btn-primary {
+   z-index: 1;
+   background-color: var(--color-primary);
+   min-height: 45px;
+   min-width: 100px;
+   padding: 0 12px;
+   font-weight: 600;
+   text-transform: capitalize;
+   color: white;
+   cursor: pointer;
+}
+
+button:disabled {
+   cursor: not-allowed;
+}

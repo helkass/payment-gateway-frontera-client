@@ -1,0 +1,10 @@
+pre {
+   background-color: rgba(225, 225, 225, 0.3);
+   width: max-content;
+   padding: 5px 8px;
+   margin: 8px 0;
+   font-size: 0.9rem;
+   border: 1px solid rgba(225, 225, 225, 0.9);
+   border-radius: 4px;
+   tab-size: 5;
+}
